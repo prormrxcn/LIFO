@@ -1,0 +1,127 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/results/floorplan/lifo.odb'…
+define_corners Typical
+read_liberty -corner Typical /home/prormrxcn/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+Reading design constraints file at '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/floorplan/3-initial_fp.sdc'…
+[INFO]: Setting RC values...
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 156400 160480
+[INFO GPL-0006] NumInstances: 1047
+[INFO GPL-0007] NumPlaceInstances: 624
+[INFO GPL-0008] NumFixedInstances: 423
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 636
+[INFO GPL-0011] NumPins: 2124
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 162260 172980
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 156400 160480
+[INFO GPL-0016] CoreArea: 22571648000
+[INFO GPL-0017] NonPlaceInstsArea: 804521600
+[INFO GPL-0018] PlaceInstsArea: 6860329600
+[INFO GPL-0019] Util(%): 31.52
+[INFO GPL-0020] StdInstsArea: 6860329600
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000012 HPWL: 9180790
+[InitialPlace]  Iter: 2 CG residual: 0.00000007 HPWL: 8698801
+[InitialPlace]  Iter: 3 CG residual: 0.00000010 HPWL: 8797097
+[InitialPlace]  Iter: 4 CG residual: 0.00000009 HPWL: 8841557
+[InitialPlace]  Iter: 5 CG residual: 0.00000008 HPWL: 8828368
+[INFO GPL-0031] FillerInit: NumGCells: 796
+[INFO GPL-0032] FillerInit: NumGNets: 636
+[INFO GPL-0033] FillerInit: NumGPins: 2124
+[INFO GPL-0023] TargetDensity: 0.40
+[INFO GPL-0024] AveragePlaceInstArea: 10994117
+[INFO GPL-0025] IdealBinArea: 27485292
+[INFO GPL-0026] IdealBinCnt: 821
+[INFO GPL-0027] TotalBinArea: 22571648000
+[INFO GPL-0028] BinCnt: 16 16
+[INFO GPL-0029] BinSize: 9430 9350
+[INFO GPL-0030] NumBins: 256
+[NesterovSolve] Iter: 1 overflow: 0.952373 HPWL: 4308263
+[NesterovSolve] Iter: 10 overflow: 0.87506 HPWL: 5836706
+[NesterovSolve] Iter: 20 overflow: 0.873104 HPWL: 5875380
+[NesterovSolve] Iter: 30 overflow: 0.875028 HPWL: 5832366
+[NesterovSolve] Iter: 40 overflow: 0.878824 HPWL: 5838742
+[NesterovSolve] Iter: 50 overflow: 0.874071 HPWL: 5831533
+[NesterovSolve] Iter: 60 overflow: 0.872109 HPWL: 5825230
+[NesterovSolve] Iter: 70 overflow: 0.873145 HPWL: 5826140
+[NesterovSolve] Iter: 80 overflow: 0.87301 HPWL: 5828229
+[NesterovSolve] Iter: 90 overflow: 0.871662 HPWL: 5835290
+[NesterovSolve] Iter: 100 overflow: 0.871236 HPWL: 5845295
+[NesterovSolve] Iter: 110 overflow: 0.870931 HPWL: 5862097
+[NesterovSolve] Iter: 120 overflow: 0.870214 HPWL: 5890575
+[NesterovSolve] Iter: 130 overflow: 0.867656 HPWL: 5936403
+[NesterovSolve] Iter: 140 overflow: 0.863091 HPWL: 6009683
+[NesterovSolve] Iter: 150 overflow: 0.855774 HPWL: 6120035
+[NesterovSolve] Iter: 160 overflow: 0.847442 HPWL: 6293082
+[NesterovSolve] Iter: 170 overflow: 0.840259 HPWL: 6594006
+[NesterovSolve] Iter: 180 overflow: 0.82364 HPWL: 7018792
+[NesterovSolve] Iter: 190 overflow: 0.795866 HPWL: 7449598
+[INFO GPL-0100] worst slack 5.85e-09
+[INFO GPL-0103] Weighted 63 nets.
+[NesterovSolve] Iter: 200 overflow: 0.770941 HPWL: 7961691
+[NesterovSolve] Iter: 210 overflow: 0.745145 HPWL: 8574259
+[NesterovSolve] Iter: 220 overflow: 0.697933 HPWL: 9119744
+[NesterovSolve] Iter: 230 overflow: 0.667661 HPWL: 9669830
+[INFO GPL-0100] worst slack 5.83e-09
+[INFO GPL-0103] Weighted 63 nets.
+[NesterovSolve] Iter: 240 overflow: 0.61849 HPWL: 10251343
+[NesterovSolve] Snapshot saved at iter = 244
+[NesterovSolve] Iter: 250 overflow: 0.573271 HPWL: 10810497
+[NesterovSolve] Iter: 260 overflow: 0.521489 HPWL: 11322901
+[INFO GPL-0100] worst slack 5.81e-09
+[INFO GPL-0103] Weighted 63 nets.
+[NesterovSolve] Iter: 270 overflow: 0.465029 HPWL: 11709648
+[NesterovSolve] Iter: 280 overflow: 0.411745 HPWL: 11835161
+[NesterovSolve] Iter: 290 overflow: 0.342937 HPWL: 11882038
+[NesterovSolve] Iter: 300 overflow: 0.306326 HPWL: 11922026
+[INFO GPL-0100] worst slack 5.77e-09
+[INFO GPL-0103] Weighted 63 nets.
+[NesterovSolve] Iter: 310 overflow: 0.270535 HPWL: 11980974
+[NesterovSolve] Iter: 320 overflow: 0.235492 HPWL: 12035343
+[NesterovSolve] Iter: 330 overflow: 0.205014 HPWL: 12007492
+[INFO GPL-0100] worst slack 5.79e-09
+[INFO GPL-0103] Weighted 62 nets.
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 6900 6900
+[INFO GPL-0038] TileCnt: 23 25
+[INFO GPL-0039] numRoutingLayers: 6
+[INFO GPL-0040] NumTiles: 575
+[INFO GPL-0063] TotalRouteOverflowH2: 0.0
+[INFO GPL-0064] TotalRouteOverflowV2: 0.06666672229766846
+[INFO GPL-0065] OverflowTileCnt2: 1
+[INFO GPL-0066] 0.5%RC: 1.000000011920929
+[INFO GPL-0067] 1.0%RC: 1.0
+[INFO GPL-0068] 2.0%RC: 0.9935483855585898
+[INFO GPL-0069] 5.0%RC: 0.9276315765945535
+[INFO GPL-0070] 0.5rcK: 1.0
+[INFO GPL-0071] 1.0rcK: 1.0
+[INFO GPL-0072] 2.0rcK: 0.0
+[INFO GPL-0073] 5.0rcK: 0.0
+[INFO GPL-0074] FinalRC: 1.0
+[NesterovSolve] Iter: 340 overflow: 0.174943 HPWL: 12066787
+[NesterovSolve] Iter: 350 overflow: 0.144007 HPWL: 12168038
+[INFO GPL-0100] worst slack 5.79e-09
+[INFO GPL-0103] Weighted 61 nets.
+[NesterovSolve] Iter: 360 overflow: 0.11902 HPWL: 12190311
+[NesterovSolve] Finished with Overflow: 0.098394
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/placement/7-global.odb'…
+Writing netlist to '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/placement/7-global.nl.v'…
+Writing powered netlist to '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/placement/7-global.pnl.v'…
+Writing layout to '/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/placement/7-global.def'…

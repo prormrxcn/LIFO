@@ -1,0 +1,15 @@
+{
+    "DESIGN_NAME": "lifo",
+    "VERILOG_FILES": ["dir::src/lifo.v"],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    "POWER_PINS": ["vdd", "gnd"],
+    "PDK": "sky130A",
+    "FP_CORE_UTIL": 30,
+    "FP_ASPECT_RATIO": 1.0,
+    "DIE_AREA": "0 0 500 500",
+    "FP_PDN_VPITCH": 30,
+    "FP_PDN_HPITCH": 30,
+    "FP_PDN_VWIDTH": 2,
+    "FP_PDN_HWIDTH": 2
+}

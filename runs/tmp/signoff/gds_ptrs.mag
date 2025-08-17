@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 32452 34596
+string GDS_END 2350892
+string GDS_FILE /openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/results/signoff/lifo.magic.gds
+string GDS_START 321388
+<< end >>

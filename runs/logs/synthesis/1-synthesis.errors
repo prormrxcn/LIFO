@@ -1,0 +1,4 @@
+    48/66: $0\error[0:0]
+Creating register for signal `\lifo.\error' using process `\lifo.$proc$/openlane/designs/lifo/src/lifo.v:40$15'.
+ABC: Error: The network is combinational.
+Warning: Wire lifo.\error is used but has no driver.

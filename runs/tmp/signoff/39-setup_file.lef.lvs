@@ -1,0 +1,1 @@
+lvs {/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/results/signoff/lifo.spice lifo} {/openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/tmp/signoff/36-lifo.pnl.v lifo} /home/prormrxcn/.ciel/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/lifo/runs/RUN_2025.08.17_11.46.36/logs/signoff/39-lifo.lef.lvs.log -json

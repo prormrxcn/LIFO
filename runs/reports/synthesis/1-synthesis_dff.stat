@@ -1,0 +1,25 @@
+
+53. Printing statistics.
+
+=== lifo ===
+
+   Number of wires:               1028
+   Number of wire bits:           1281
+   Number of public wires:          26
+   Number of public wire bits:     156
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1269
+     $_ANDNOT_                     191
+     $_AND_                          8
+     $_MUX_                        676
+     $_NAND_                        14
+     $_NOR_                         24
+     $_NOT_                         27
+     $_ORNOT_                        4
+     $_OR_                         174
+     $_XOR_                          9
+     sky130_fd_sc_hd__dfrtp_2       14
+     sky130_fd_sc_hd__dfxtp_2      128
+

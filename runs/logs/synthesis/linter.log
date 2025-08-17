@@ -1,0 +1,18 @@
+%Warning-WIDTHTRUNC: /openlane/designs/lifo/src/lifo.v:51:30: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                            : ... In instance lifo
+   51 |                         stack[top] <= data_in;
+      |                              ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.009
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /openlane/designs/lifo/src/lifo.v:73:34: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                            : ... In instance lifo
+   73 |                             stack[top] <= data_in;
+      |                                  ^
+%Warning-UNUSEDSIGNAL: /openlane/designs/lifo/src/lifo.v:37:10: Signal is not used: 'doing_push'
+                                                              : ... In instance lifo
+   37 |     wire doing_push = push && (!pop || !empty);
+      |          ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/lifo/src/lifo.v:38:10: Signal is not used: 'doing_pop'
+                                                              : ... In instance lifo
+   38 |     wire doing_pop = pop && (!push || !full);
+      |          ^~~~~~~~~
